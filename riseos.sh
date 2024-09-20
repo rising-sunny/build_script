@@ -21,7 +21,7 @@ source build/envsetup.sh
 riseup sunny user
 
 # make
-make install clean
+make installclean
 
 # launch
 mka bacon
