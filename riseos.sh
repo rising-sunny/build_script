@@ -1,15 +1,15 @@
 # Clone RisingOS
 
+# Remove locaL Manifests
 rm -rf .repo/local_manifests/
 
+#Init Rom Manifest
 repo init -u repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 
 # Clone local_manifests repository
-
 git clone https://github.com/dpenra/sunny_manifest.git --depth 1 -b main .repo/local_manifests
 
 # repo sync
-
 /opt/crave/resync.sh
 
 # removing and adding source
@@ -18,7 +18,10 @@ git clone https://github.com/dpenra/sunny_manifest.git --depth 1 -b main .repo/l
 source build/envsetup.sh
 
 # build
-Riseup sunny user
+riseup sunny user
 
 # make
-rise b
+make install clean
+
+# launch
+mka bacon
