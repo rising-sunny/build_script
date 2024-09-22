@@ -1,27 +1,25 @@
 # Clone RisingOS
 
-# Remove locaL Manifests
+# Remove local manifests if they exist
 rm -rf .repo/local_manifests/
 
-#Init Rom Manifest
-repo init -u repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+# Initialize ROM manifest (with --git-lfs for large file support)
+repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 
-# Clone local_manifests repository
+# Clone your custom local_manifests repository
 git clone https://github.com/dpenra/sunny_manifest --depth 1 -b main .repo/local_manifests
 
-# repo sync
+# Sync the repository
 /opt/crave/resync.sh
 
-# removing and adding source
 # Set up build environment
-# initialize build environment
 . build/envsetup.sh
 
-# build
+# Set up the build target (RisingOS specific command)
 riseup sunny user
 
-# make
+# Build the ROM (RisingOS-specific build command)
 rise b
 
-# launch
+# Alternative Android build system command
 # mka bacon
