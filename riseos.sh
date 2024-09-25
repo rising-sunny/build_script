@@ -69,5 +69,7 @@ git clone https://github.com/dpenra-sunny/android_packages_apps_Updater.git --de
 git clone https://github.com/dpenra-sunny/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
 # set build environment
 . build/envsetup.sh
+# lunch
 riseup sunny user
+# make
 rise b
