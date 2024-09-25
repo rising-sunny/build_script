@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Remove local manifests if they exist
-rm -rf .repo/local_manifests
+rm -rf .repo/local_manifests/
 # remove device
 rm -rf device/xiaomi/sunny
 rm -rf device/xiaomi/sunny-kernel
