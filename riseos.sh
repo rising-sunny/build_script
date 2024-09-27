@@ -24,7 +24,7 @@ rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
 # remove packages
 rm -rf packages/apps/DisplayFeatures
-rm -rf packages/apps/Kprofiles
+rm -rf packages/apps/KProfiles
 rm -rf packages/apps/ViPER4AndroidFX
 # remove source mod
 rm -rf hardware/qcom-caf/sm8150/media
