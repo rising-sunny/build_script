@@ -38,6 +38,7 @@ repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf vendor/lineage
 rm -rf packages/apps/Updater
+rm -rf frameworks/base
 # cloning DT
 # device tree
 git clone https://github.com/dpenra-sunny/device_xiaomi_sunny.git --depth 1 -b fourteen device/xiaomi/sunny
