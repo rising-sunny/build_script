@@ -51,7 +51,7 @@ git clone https://github.com/dpenra-sunny/kernel_xiaomi_sunny.git --depth 1 kern
 git clone https://github.com/dpenra-sunny/vendor_xiaomi_sunny.git --depth 1 -b fourteen vendor/xiaomi/sunny
 git clone https://gitlab.com/yaosp/vendor_qcom_common.git --depth 1 -b fourteen vendor/qcom/common
 git clone https://github.com/yaap/vendor_qcom_opensource_core-utils.git --depth 1 -b fourteen vendor/qcom/opensource/core-utils
-git clone https://github.com/dpenra-sunny/vendor_lineage-priv_keys.git --depth 1 -b master vendor/lineage-priv/keys
+# git clone https://github.com/dpenra-sunny/vendor_lineage-priv_keys.git --depth 1 -b master vendor/lineage-priv/keys
 git clone https://github.com/Chaitanyakm/vendor_bcr.git --depth 1 -b main vendor/bcr
 git clone https://gitlab.com/dpenra/android_vendor_xiaomi_mojito-leicacamera.git --depth 1 -b main vendor/xiaomi/mojito-leicacamera
 git clone https://github.com/dpenra-apps/android_vendor_xiaomi_miuiapps.git --depth 1 -b main vendor/xiaomi/miuiapps
