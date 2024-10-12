@@ -13,7 +13,7 @@ rm -rf kernel/xiaomi/sunny
 rm -rf vendor/xiaomi/sunny
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
-# rm -rf vendor/lineage-priv/keys
+rm -rf vendor/lineage-priv/keys
 rm -rf vendor/bcr
 rm -rf vendor/xiaomi/mojito-leicacamera
 rm -rf vendor/xiaomi/miuiapps
