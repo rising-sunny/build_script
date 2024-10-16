@@ -56,7 +56,7 @@ git clone https://github.com/Chaitanyakm/vendor_bcr.git --depth 1 -b main vendor
 git clone https://gitlab.com/dpenra/android_vendor_xiaomi_mojito-leicacamera.git --depth 1 -b main vendor/xiaomi/mojito-leicacamera
 git clone https://github.com/dpenra-apps/android_vendor_xiaomi_miuiapps.git --depth 1 -b main vendor/xiaomi/miuiapps
 # hardware tree
-git clone https://github.com/dpenra-sunny/hardware_xiaomi.git --depth 1 -b main hardware/xiaomi
+git clone https://github.com/dpenra-sunny/hardware_xiaomi.git --depth 1 -b fourteen hardware/xiaomi
 # prebuilts
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf.git --depth 1 -b 14.0.0 prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi.git --depth 1 -b 12.0.0 prebuilts/gcc/linux-x86/arm/arm-eabi
