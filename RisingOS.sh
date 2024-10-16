@@ -66,7 +66,7 @@ git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --dep
 git clone https://github.com/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX.git --depth 1 -b fourteen packages/apps/ViPER4AndroidFX
 # source mods
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fourteen hardware/qcom-caf/sm8150/media
-git clone https://github.com/dpenra-sunny/android_packages_apps_Updater.git --depth 1 -b fourteen packages/apps/Updater
+git clone https://github.com/rising-sunny/android_packages_apps_Updater.git --depth 1 -b fourteen packages/apps/Updater
 git clone https://github.com/dpenra-sunny/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
 git clone https://github.com/dpenra-sunny/android_frameworks_base.git --depth 1 -b fourteen frameworks/base
 # set build environment
